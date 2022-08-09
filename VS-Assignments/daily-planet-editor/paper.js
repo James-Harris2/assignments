@@ -11,43 +11,45 @@ just fix the existing ones.
 
 var Enemies = ["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsday"];
 
-function whoWins = ('is-there-kryptonite, enemy_name');
+function Who_Wins(isThereKryptonite, enemy_name);{
+
+if (!is-there-kryptonite)
 {
-{   if ('is-there-kryptonite')
-     return ("Superman beats " +enemyName+ ", of course");
-}    
-
+        return ("Superman beats " +enemyName+ ", of course");
 }
-     return ("Depends on how quick Superman can get rid of the Kryptonite. ") + enemyname + (" could possibly win this one.");
 
-     
- {  for var  (i = 0,  Enemies.length, i++);
-
-    var (is_there_kryptonite); 
-    if (2 === 0) 
-        is_there_kryptonite = true;
+else{
+    return ("Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.");
 }
-    else {
-        (is_there_kryptonite = false);
     }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
 
+for (var i=0; i<enemies.length; i++)
+{
+    var is_there_kryptonite;
+        if (i%2=== 0) {
+            is_there_kryptonite = true;
+    }else {
+        is_there_kryptonite = false;
+    }
+    console.log(who_Wins(is_there_kryptonite,enemies[i]));
+}
 
-function how_Attracted_Is_Lois_Lane_toMe ()
+function is_LLane_Attracted_To_Me ();
 {
     // 1 is not at all attracted, 10 is "super" attracted...
     return Math.floor((Mat.random()*10)+1);
 }
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
+consol.log(is_LLane_Attracted_To_Me() ) ;
 
-var clarkKent = true;
-var superman = false;
+    var is_clarkKent = true;
+    var is_Superman = false;
 
 while (clarkKent){
-    console.log ("I'm just a nerdy columnist");
-    var phoneBoothQuickChange = Math.random();
-    if (phoneBoothQuickChange >= 0.5); {
-        clarkKent = false;
-        superman = true;
-        console.log ("Now I'm Superman!");}}
+    
+    var phoneBoothQuickChange =Math.random();
+        if (phoneBoothQuickChange>= 0.5) {
+            clarkKent=false;
+            superman=true;
+    console.log("Now I'm Superman!");}}
+    console.log("I'm just a nerdy columnist");
