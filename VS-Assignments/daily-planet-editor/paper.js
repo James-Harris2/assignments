@@ -11,11 +11,11 @@ just fix the existing ones.
 
 var Enemies = ["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsday"];
 
-function Who_Wins(isThereKryptonite, enemy_name);{
+function whoWins(isThereKryptonite, enemyName);{
 
-if (!is-there-kryptonite)
+if (!isThereKryptonite)
 {
-        return ("Superman beats " +enemyName+ ", of course");
+        return ("Superman beats " + enemyName + ", of course");
 }
 
 else{
@@ -23,27 +23,27 @@ else{
 }
     }
 
-for (var i=0; i<enemies.length; i++)
+for (var i = 0; i < enemies.Length; i++)
 {
-    var is_there_kryptonite;
-        if (i%2=== 0) {
-            is_there_kryptonite = true;
+    var isThereKryptonite;
+        if ( 2=== 0) {
+            isThereKryptonite = true;
     }else {
-        is_there_kryptonite = false;
+        isThereKryptonite = false;
     }
-    console.log(who_Wins(is_there_kryptonite,enemies[i]));
+    console.log( whoWins ( isThereKryptonite, enemies[i]));
 }
 
-function is_LLane_Attracted_To_Me ();
+function isLLaneAttractedToMe ();
 {
     // 1 is not at all attracted, 10 is "super" attracted...
     return Math.floor((Mat.random()*10)+1);
 }
 
-consol.log(is_LLane_Attracted_To_Me() ) ;
+consol.log( isLLaneAttractedToMe () ) ;
 
-    var is_clarkKent = true;
-    var is_Superman = false;
+    var isclarkKent = true;
+    var isSuperman = false;
 
 while (clarkKent){
     
@@ -51,5 +51,8 @@ while (clarkKent){
         if (phoneBoothQuickChange>= 0.5) {
             clarkKent=false;
             superman=true;
-    console.log("Now I'm Superman!");}}
+    console.log("Now I'm Superman!");}
     console.log("I'm just a nerdy columnist");
+
+}
+
